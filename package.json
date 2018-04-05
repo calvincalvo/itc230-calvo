@@ -1,0 +1,20 @@
+{
+  "name": "itc230-calvinc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvincalvo/itc230-calvo.git"
+  },
+  "keywords": [],
+  "author": "binji_670 <ccalvo916@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calvincalvo/itc230-calvo/issues"
+  },
+  "homepage": "https://github.com/calvincalvo/itc230-calvo#readme",
+  "description": ""
+}
