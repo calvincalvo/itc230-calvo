@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<body>
+  <h2>Details for {{title}}</h2>
+  {{#if result}}
+    <li>Title: {{ result.title }}
+    <li>Artist: {{ result.artist }}
+    <li>Release Date: {{ result.year }}
+    <li>Genre: {{ result.genre }}
+    <br/>
+    <input type="button" onclick="location.href='delete?title={{title}}';" value="delete" />
+  {{else}}
+    not found
+  {{/if}}
+</body>
+</html>

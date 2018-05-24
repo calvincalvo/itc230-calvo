@@ -1,20 +1,21 @@
 {
-  "name": "itc230-calvinc",
+  "name": "itc230-cc",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "calvin calvo <ccalvo916@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "express-handlebars": "^3.0.0"
   },
+  "scripts": {
+    "start": "index.js"
+  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/calvincalvo/itc230-calvo.git"
   },
-  "keywords": [],
-  "author": "binji_670 <ccalvo916@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/calvincalvo/itc230-calvo/issues"
-  },
-  "homepage": "https://github.com/calvincalvo/itc230-calvo#readme",
-  "description": ""
+  "license": "ISC"
 }
