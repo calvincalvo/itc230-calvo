@@ -16,9 +16,34 @@
     <h1>get page</h1>
     <form method="POST" action="/get">
         <input type="text" name="search_field" placeholder="find an album">
-    <input type="submit" value="submit">
-    <input type="reset" value="reset">
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
     </form>
-
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    
+    <form method="POST" action="/add">
+            <input name="name" type="text" placeholder="Title">
+            <br>
+            <input name="artist" type="text" placeholder="Artist">
+            <br>
+            <input name="year" type="text" placeholder="Year">
+            <br>
+            <input name="genre" type="text" placeholder="Genre">
+            <br>
+            <input type="submit" value="Add">
+    </form>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    
+    <form method="POST" action="/delete">
+            <input name="bye" type="text" placeholder="Enter a title ">
+            <br>
+            <input type="submit" value="Delete">
+    </form>
 </body>
 </html>
