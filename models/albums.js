@@ -1,4 +1,4 @@
-//models/films.js
+//models/albums.js
 var mongoose = require('mongoose');
 
 //remote db connection settings. For security, connectionString should be in a separate file not committed to git
